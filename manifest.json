@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Archive URL",
+  "description": "Send current page URL to Archive.ph and return the archived link.",
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [ "scripting", "contextMenus"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+    }
+  },
+  "icons": {
+    "16": "images/16.png",
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "256": "images/256.png"
+  }
+}
